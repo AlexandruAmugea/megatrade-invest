@@ -5,6 +5,10 @@
 @import "main-menu.css";
 @import "pages.css";
 
+
+.header-social {
+	margin: 6px 10px 0 15px;
+}
 .footer-menu {
 	text-transform: uppercase;
 	margin: 0;

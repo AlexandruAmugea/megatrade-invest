@@ -1,0 +1,25 @@
+{
+  "name": "megatrade",
+  "description": "Megatrade Invest Website",
+  "main": "server.js",
+  "authors": [
+    "Amugea Alexandru"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "Megatrade",
+    "Invest"
+  ],
+  "homepage": "https://github.com/AlexandruAmugea/megatrade-invest",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "owl.carousel": "OwlCarousel2#^2.2.1"
+  }
+}
