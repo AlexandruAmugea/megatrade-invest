@@ -1,7 +1,42 @@
 /* sections in pages */
 
 .about-us-section {
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
     padding: 10px 0 40px;
+}
+
+/* platforms */
+
+.section-platforms {
+    border-bottom: 2px solid #f7f6f6;
+    padding: 50px 0;
+}
+
+.section-platforms img {
+    margin: 0 auto;
+}
+
+.section-platforms .section-platforms-subsection {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section-platforms h3 {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: #5d2d86;
+    font-weight: 700;
+}
+
+.section-platforms h3 small {
+    margin: 20px 0 10px;
+    font-size: 24px;
+    color: #5d2d86;
+    font-weight: 400;
+}
+
+.section-platforms h4 {
+    text-transform: uppercase;
+    font-size: 18px;
 }
