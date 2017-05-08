@@ -1,3 +1,9 @@
+@import "reset.css";
+@import "typography.css";
+@import "ui-components.css";
+@import "buttons.css";
+@import "main-menu.css";
+
 .footer-menu {
 	text-transform: uppercase;
 	margin: 0;

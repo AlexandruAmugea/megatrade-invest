@@ -1,0 +1,88 @@
+/* Button types */
+
+.btn-trading-type {
+    border: 2px solid #5d2d86;
+    border-radius: 8px;
+    padding: 12px 50px 10px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #5d2d86;
+    font-size: 14px;
+    box-shadow: none;
+}
+
+.btn-trading-type small {
+    font-weight: 400;
+}
+
+.btn-trading-type:hover, .btn-trading-type:focus,
+.btn-trading-type:visited {
+    color: #5d2d86;
+    border: 2px solid #5d2d86;
+    box-shadow: none;
+}
+
+.btn-register {
+    background-color: #95d600;
+    padding: 12px 50px 10px 50px;
+    color: #fff;
+    border-radius: 8px;
+    border: 2px solid #95d600;
+    box-shadow: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn-register:hover, .btn-register:focus,
+.btn-register:visited {
+    color: #fff;
+    border: 2px solid #95d600;
+    box-shadow: none;
+}
+
+.btn-login {
+    border: 2px solid #000;
+    border-radius: 8px;
+    padding: 12px 50px 10px 50px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #000;
+    font-size: 14px;
+    box-shadow: none;
+    background-color: transparent;
+}
+
+.btn-login small {
+    font-weight: 400;
+}
+
+.btn-login:hover, .btn-login:focus,
+.btn-login:visited {
+    color: #000;
+    border: 2px solid #000;
+    box-shadow: none;
+}
+
+.btn-login.btn-login-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-login.btn-login-white:hover, .btn-login.btn-login-white:focus,
+.btn-login:visited.btn-login-white {
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: none;
+}
+
+.btn-login.btn-login-green {
+    color: #95d600;
+    border-color: #95d600;
+}
+
+.btn-login.btn-login-green:hover, .btn-login.btn-login-green:focus,
+.btn-login.btn-login-green:visited {
+    color: #95d600;
+    border: 2px solid #95d600;
+    box-shadow: none;
+}

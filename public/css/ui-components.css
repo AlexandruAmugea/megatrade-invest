@@ -1,0 +1,40 @@
+/* Header */
+
+.top-header-bar {
+    border-bottom: 1px solid #c1c1c1;
+    padding: 10px 100px;
+}
+
+.header-middle {
+    padding: 25px 100px;
+}
+
+.header-middle .logo {
+    max-width: 200px;
+    height: auto;
+}
+
+/* Carousel */
+
+.owl-carousel .item-text {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+    top: 45%;
+    text-align: center;
+}
+
+.owl-carousel .item-text h2 {
+    color: #95d600;
+    font-size: 90px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.owl-carousel .item-text p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom:50px;
+    text-transform: uppercase;
+    line-height:1.3;
+}
