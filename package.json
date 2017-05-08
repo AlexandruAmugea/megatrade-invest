@@ -1,0 +1,27 @@
+{
+  "name": "megatrade",
+  "version": "1.0.0",
+  "description": "Megatrade Invest Website",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandruAmugea/megatrade-invest.git"
+  },
+  "keywords": [
+    "Megatrade",
+    "Invest"
+  ],
+  "author": "Amugea Alexandru",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandruAmugea/megatrade-invest/issues"
+  },
+  "homepage": "https://github.com/AlexandruAmugea/megatrade-invest#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}
