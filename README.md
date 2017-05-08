@@ -9,4 +9,4 @@ To run the project in dev:
 Run: 
 -npm install
 -bower install
--command: node server.js
+-command to start: node server.js
