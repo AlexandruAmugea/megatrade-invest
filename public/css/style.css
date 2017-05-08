@@ -3,6 +3,7 @@
 @import "ui-components.css";
 @import "buttons.css";
 @import "main-menu.css";
+@import "pages.css";
 
 .footer-menu {
 	text-transform: uppercase;

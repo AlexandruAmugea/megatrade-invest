@@ -38,3 +38,92 @@
     text-transform: uppercase;
     line-height:1.3;
 }
+
+/* stock exchange */
+
+.stock-exchange-wrapper {
+    padding: 25px 0 40px;
+    background: #5d2d86;
+}
+
+.stock-exchange-wrapper img {
+    margin-right: 20px;
+    margin-bottom: -15px;
+}
+
+.stock-exchange-wrapper p {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.stock-exchange-wrapper p small {
+    font-weight: 400;
+}
+
+/* Stock widget */
+
+.stock-quotations-wrapper {
+    padding: 100px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.stock-quotations-wrapper ul li {
+    display: inline-block;
+    width: 33%;
+    margin-bottom: 10px;
+}
+
+.stock-quotations-wrapper ul li p.pair {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.stock-quotations-wrapper ul li
+p.pair.pair-down {
+    font-weight: 700;
+    color: red;
+}
+
+.stock-quotations-wrapper ul li
+p.pair.pair-up {
+    font-weight: 700;
+    color: #94d500;
+}
+
+/* Steps to become customer */
+
+.steps-wrapper {
+    background-color: #f9f9f9;
+    padding: 125px 0;
+}
+
+.steps-wrapper-inner {
+    max-width:1400px;
+    margin: 0 auto;
+}
+
+.steps-wrapper-inner img {
+    margin-bottom: 15px;
+}
+
+.steps-wrapper-inner p {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.steps-wrapper-inner p strong {
+    display: block;
+    font-weight: 700;
+}
+
+.steps-bottom {
+    max-width:1350px;
+    margin: 0 auto;
+}
+
+
+
