@@ -115,6 +115,49 @@
     border-radius: 7px;
 }
 
+@media screen and (max-width: 1280px) {
+    .btn-login {
+        padding: 9px 25px 7px 25px;
+        font-size:12px;
+    }
+
+    .footer-buttons {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .subscriber .footer-btn {
+        margin-top: 10px;
+    }
+
+    .btn-trading-type {
+        padding: 9px 30px 7px 30px;
+        font-size: 12px;
+    }
+
+    .btn-register {
+        padding: 9px 30px 7px 30px;
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn-login {
+        padding: 10px 20px;
+        font-size:14px;
+    }
+
+    .footer-buttons {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .subscriber .footer-btn {
+        margin-top: 10px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .btn-login {
         padding: 10px 20px;
