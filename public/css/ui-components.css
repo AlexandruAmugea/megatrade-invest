@@ -14,6 +14,42 @@
     height: auto;
 }
 
+.header-social {
+    margin: 6px 10px 0 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .header-social {
+       float: left !important;
+    }
+
+    .top-header-bar {
+        padding: 10px;
+    }
+
+    .header-middle {
+        padding: 10px;
+    }
+
+    .header-middle .btn-trading-type {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .header-middle .btn-login {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .header-middle .btn-register {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+}
+
 /* Carousel */
 
 .owl-carousel .item-text {
@@ -56,6 +92,22 @@
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .stock-exchange-wrapper p {
+        font-size:14px;
+    }
+
+    .stock-exchange-wrapper img {
+        width: 30px;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .stock-exchange-wrapper {
+        padding: 15px 0 5px;
+    }
 }
 
 .stock-exchange-wrapper p small {
@@ -125,5 +177,45 @@ p.pair.pair-up {
     margin: 0 auto;
 }
 
+.mission-inner {
+    transition: .5s all ease;
+}
+
+.mission-inner:hover {
+    transform: scale(1.015);
+    transition: .5s all ease;
+}
+
+@media screen and ( max-width: 768px) {
+    .stock-quotations-wrapper {
+        padding: 15px 0;
+    }
+
+    .stock-quotations-wrapper ul li {
+        display: block;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .stock-quotations-wrapper ul li p.pair {
+        font-size: 14px;
+    }
+
+    .steps-wrapper {
+        padding: 15px 0;
+    }
+
+    .steps-wrapper-inner img.arrow {
+        width: 10px;
+    }
+
+    .steps-wrapper-inner p {
+        font-size: 8px;
+    }
+
+    .owl-carousel .item-text {
+        display: none;
+    }
+}
 
 

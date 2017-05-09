@@ -101,3 +101,32 @@
     display: inline-block;
     width: auto;
 }
+
+.footer-buttons {
+    text-align: right;
+}
+
+.subscriber .footer-btn {
+    border: none;
+    background: #5d2d86;
+    font-weight: normal;
+    padding: 14px 24px;
+    margin-left: 10px;
+    border-radius: 7px;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-login {
+        padding: 10px 20px;
+        font-size:14px;
+    }
+
+    .footer-buttons {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .subscriber .footer-btn {
+        margin-top: 10px;
+    }
+}
