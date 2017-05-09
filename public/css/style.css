@@ -149,6 +149,12 @@ table td {
 	padding: 40px 0;
 }
 
+.payment-inner {
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+
 .mission-inner-1 {
 	background: url(../images/mission.png);
 	background-size: cover;
