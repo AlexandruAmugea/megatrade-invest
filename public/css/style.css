@@ -4,6 +4,7 @@
 @import "buttons.css";
 @import "main-menu.css";
 @import "pages.css";
+@import "sections.css";
 
 .footer-menu {
 	text-transform: uppercase;
