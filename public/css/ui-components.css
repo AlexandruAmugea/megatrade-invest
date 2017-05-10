@@ -18,38 +18,6 @@
     margin: 6px 10px 0 15px;
 }
 
-@media screen and (max-width: 768px) {
-    .header-social {
-       float: left !important;
-    }
-
-    .top-header-bar {
-        padding: 10px;
-    }
-
-    .header-middle {
-        padding: 10px;
-    }
-
-    .header-middle .btn-trading-type {
-        padding: 5px 5px;
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-
-    .header-middle .btn-login {
-        padding: 5px 5px;
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-
-    .header-middle .btn-register {
-        padding: 5px 5px;
-        font-size: 10px;
-        margin-bottom: 5px;
-    }
-}
-
 /* Carousel */
 
 .owl-carousel .item-text {
@@ -62,13 +30,13 @@
 
 .owl-carousel .item-text h2 {
     color: #95d600;
-    font-size: 90px;
+    font-size: 70px;
     font-weight: 700;
     margin-bottom: 10px;
 }
 
 .owl-carousel .item-text p {
-    font-size: 18px;
+    font-size: 16px;
     color: #fff;
     margin-bottom:50px;
     text-transform: uppercase;
@@ -94,20 +62,53 @@
     text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-    .stock-exchange-wrapper p {
-        font-size:14px;
-    }
+/* home page our mission */
 
-    .stock-exchange-wrapper img {
-        width: 30px;
-        height: auto;
-        margin-bottom: 0;
-    }
+.mission-inner-1 {
+    background: url(../images/mission.png);
+    background-size: cover;
+}
 
-    .stock-exchange-wrapper {
-        padding: 15px 0 5px;
-    }
+.mission-inner-2 {
+    background: url(../images/careers.png);
+    background-size: cover;
+}
+
+.mission-inner-3 {
+    background: url(../images/events.png);
+    background-size: cover;
+}
+
+.mission-inner h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.mission-inner p {
+    margin-bottom: 40px;
+}
+
+.mission-inner {
+    text-align: center;
+    padding: 200px 0px 100px 0px;
+}
+
+.mission {
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    padding: 0 !important;
+}
+
+.mission .col-md-4 {
+    padding: 0;
+}
+
+.mission .col-md-4:first-child {
+    padding-right: 20px;
+}
+
+.mission .col-md-4:last-child {
+    padding-left: 20px;
 }
 
 .stock-exchange-wrapper p small {
@@ -186,6 +187,98 @@ p.pair.pair-up {
     transition: .5s all ease;
 }
 
+@media screen and ( max-width: 1400px) {
+    .owl-carousel .item-text {
+        left: 15%;
+        width: 70%;
+        top: 45%;
+    }
+
+    .owl-carousel .item-text h2 {
+        font-size: 40px;
+    }
+
+    .owl-carousel .item-text p {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+
+    .stock-quotations-wrapper {
+        padding: 50px 0;
+    }
+
+    .mission-inner {
+        padding: 50px 10px;
+    }
+
+    .mission-inner p {
+        font-size: 14px;
+    }
+
+    .mission-inner h4 {
+        font-size: 16px;
+        margin-bottom:20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .owl-carousel .item-text {
+        left: 15%;
+        width: 70%;
+        top: 35%;
+    }
+
+    .owl-carousel .item-text h2 {
+        font-size: 30px;
+    }
+
+    .owl-carousel .item-text p {
+        font-size: 10px;
+        margin-bottom: 20px;
+    }
+
+    .mission .col-md-4:first-child {
+        padding-right: 0px;
+    }
+
+    .mission .col-md-4:last-child {
+        padding-left: 0px;
+    }
+
+    .payment {
+        padding: 0 !important;
+    }
+
+    .payment li {
+        display: block;
+        margin: 20px auto;
+    }
+
+    .footer-menu li {
+        text-align: center;
+    }
+
+    .footer-menu {
+        padding: 0;
+    }
+
+    .mission-inner {
+        padding: 50px 10px;
+    }
+
+    .stock-quotations-wrapper ul li {
+        width: 49%;
+    }
+
+    .top-header-bar {
+        padding: 10px;
+    }
+
+    .header-middle {
+        padding: 10px;
+    }
+}
+
 @media screen and ( max-width: 768px) {
     .stock-quotations-wrapper {
         padding: 15px 0;
@@ -215,6 +308,50 @@ p.pair.pair-up {
 
     .owl-carousel .item-text {
         display: none;
+    }
+
+    .stock-exchange-wrapper p {
+        font-size:14px;
+    }
+
+    .stock-exchange-wrapper img {
+        width: 30px;
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .stock-exchange-wrapper {
+        padding: 15px 0 5px;
+    }
+
+    .header-social {
+        float: left !important;
+    }
+
+    .top-header-bar {
+        padding: 10px;
+    }
+
+    .header-middle {
+        padding: 10px;
+    }
+
+    .header-middle .btn-trading-type {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .header-middle .btn-login {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+
+    .header-middle .btn-register {
+        padding: 5px 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
     }
 }
 
