@@ -71,7 +71,7 @@
     color: #fff;
 }
 
-.subscriber input[type=email] {
+.subscriber input {
     width: 100%;
     max-width: 500px;
     border-radius: 5px;
@@ -90,42 +90,6 @@
 
 .social {
     text-align: center;
-}
-
-.payment-methods table {
-    margin: auto;
-}
-
-table td:first-child img {
-    max-width: 50px;
-}
-
-table td:nth-child(2) img {
-    max-width: 60px;
-}
-
-table td:nth-child(3) img {
-    max-width: 90px;
-}
-
-table td:nth-child(4) img {
-    max-width: 60px;
-}
-
-table td:nth-child(5) img {
-    max-width: 50px;
-}
-
-table td:nth-child(6) img {
-    max-width: 140px;
-}
-
-table td:last-child img {
-    max-width: 155px;
-}
-
-table td {
-    padding: 0 30px;
 }
 
 .payment {

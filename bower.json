@@ -20,6 +20,9 @@
     "tests"
   ],
   "dependencies": {
-    "owl.carousel": "OwlCarousel2#^2.2.1"
+    "owl.carousel": "OwlCarousel2#^2.2.1",
+    "bootstrap": "^3.3.7",
+    "angular": "^1.6.4",
+    "jquery": "^3.2.1"
   }
 }

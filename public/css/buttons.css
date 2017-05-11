@@ -15,7 +15,8 @@
     font-weight: 400;
 }
 
-.btn-trading-type:hover, .btn-trading-type:focus,
+.btn-trading-type:hover,
+.btn-trading-type:focus,
 .btn-trading-type:visited {
     color: #5d2d86;
     border: 2px solid #5d2d86;
@@ -33,7 +34,8 @@
     text-transform: uppercase;
 }
 
-.btn-register:hover, .btn-register:focus,
+.btn-register:hover,
+.btn-register:focus,
 .btn-register:visited {
     color: #fff;
     border: 2px solid #95d600;
@@ -56,7 +58,8 @@
     font-weight: 400;
 }
 
-.btn-login:hover, .btn-login:focus,
+.btn-login:hover,
+.btn-login:focus,
 .btn-login:visited {
     color: #000;
     border: 2px solid #000;
@@ -68,7 +71,8 @@
     border-color: #fff;
 }
 
-.btn-login.btn-login-white:hover, .btn-login.btn-login-white:focus,
+.btn-login.btn-login-white:hover,
+.btn-login.btn-login-white:focus,
 .btn-login:visited.btn-login-white {
     color: #fff;
     border: 2px solid #fff;
@@ -80,7 +84,8 @@
     border-color: #95d600;
 }
 
-.btn-login.btn-login-green:hover, .btn-login.btn-login-green:focus,
+.btn-login.btn-login-green:hover,
+.btn-login.btn-login-green:focus,
 .btn-login.btn-login-green:visited {
     color: #95d600;
     border: 2px solid #95d600;
