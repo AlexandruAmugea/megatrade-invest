@@ -374,3 +374,134 @@
         padding-top: 250px;
     }
 }
+
+/* Trading options page */
+/* Section terminology*/
+
+.section-with-custom-header-green {
+    padding: 50px 15px;
+}
+
+.section-with-custom-header-green h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    display: block;
+    margin: 0px auto 75px;
+    background-color: transparent;
+    font-size: 24px;
+    color: #95d600;
+    position: relative;
+    z-index: 100;
+}
+
+.section-with-custom-header-green h2:before {
+    content: '';
+    position: absolute;
+    border: 2px solid #a5a5a5;
+    width: 30%;
+    left: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+.section-with-custom-header-green h2:after {
+    content: '';
+    position: absolute;
+    border: 2px solid #a5a5a5;
+    width: 30%;
+    right: 0;
+    top: 10px;
+    z-index: 2;
+}
+
+.section-with-custom-header-green h3 {
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.section-with-custom-header-green p {
+    text-align: left;
+}
+
+.section-with-custom-header-green.section-terminology .row {
+    margin-bottom: 15px;
+}
+
+/* section SETTLEMENT PROCEDURE */
+
+.section-with-custom-header-green.section-settlement {
+    background: url("../images/pages/to/bg.png") no-repeat left top;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section-with-custom-header-green.section-settlement .row {
+    margin-bottom: 150px;
+}
+
+.section-with-custom-header-green.section-settlement p {
+    text-align: center;
+    font-size: 14px;
+    color: #5d2d86;
+}
+
+.section-with-custom-header-green.section-settlement img {
+    margin-bottom: 40px;
+}
+
+/* Section regulation */
+
+.section-with-custom-header-green.section-regulation {
+    background: #5d2d86;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.section-with-custom-header-green.section-regulation img {
+    display: block;
+    margin: 30px auto 30px;
+}
+
+.section-with-custom-header-green.section-regulation h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 50px 0 25px;
+}
+
+.section-with-custom-header-green.section-regulation h5 {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 30px 0 15px;
+}
+
+.section-with-custom-header-green.section-regulation p {
+    font-size: 12px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.section-with-custom-header-green.section-regulation h6 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+@media screen and ( max-width: 1400px) {
+    .section-with-custom-header-green.section-settlement img {
+        margin-bottom: 15px;
+        width: 75px;
+        height: auto;
+    }
+}
