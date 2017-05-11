@@ -457,6 +457,7 @@
     background: #5d2d86;
     -webkit-background-size: cover;
     background-size: cover;
+    padding-bottom: 150px;
 }
 
 .section-with-custom-header-green.section-regulation img {
@@ -495,6 +496,84 @@
     font-weight: 400;
     text-transform: uppercase;
     margin: 0 0 15px;
+    text-align: center;
+}
+
+/* Section terms */
+
+.section-description {
+    background: url("../images/pages/to/terms/bg.png") no-repeat left top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+.section-description .section-description-top img{
+    margin-top: -50px;
+}
+
+.section-description .section-description-top p{
+    margin-top: 230px;
+    font-size: 22px;
+    margin-right: 50px;
+}
+
+.section-description .section-description-middle {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.section-description .section-description-middle img {
+    width: 100px;
+    margin-bottom: 50px;
+}
+
+/* section grey */
+
+.section-grey {
+    background-color: #f6f6f6;
+    padding: 100px 0;
+}
+
+.section-grey p {
+    margin-top: 100px;
+}
+
+/* section two tiles */
+
+.section-two-tiles {
+    padding: 15px;
+    background-color: #fff;
+}
+
+.tile {
+    padding: 0px 100px;
+    background: url('../images/pages/to/tile-1.jpg') no-repeat left top;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 600px;
+}
+
+.tile-2 {
+    padding: 20px 100px;
+    background: url('../images/pages/to/tile-2.jpg') no-repeat left top;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.tile-2 p {
+    color: #fff;
+    max-width: 550px;
+    margin: 250px auto;
+}
+
+.tile-1 p {
+    color: #fff;
+    width: 450px;
+    background-color: rgba(0,0,0, 0.45);
+    margin: 0 auto;
+    padding: 200px 50px 100px;
+    text-transform: uppercase;
     text-align: center;
 }
 

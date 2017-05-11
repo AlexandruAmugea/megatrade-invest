@@ -238,6 +238,107 @@
     </div>
 </div>
 
+<div class="section-description">
+    <div class="section-description-top">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6">
+                <img src="public/images/pages/to/terms/top-image.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-6">
+                <p>If price was changed at the moment of query execution or in case
+                    market volatility was increased, Dealer can offer a new price to Client,
+                    however Dealer`s response time can expand until the price is defined.
+                    If Client doesn’t like the suggested price, he may refuse it.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section-description-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="public/images/pages/to/terms/financial.png" alt="">
+                    <p>Pending offers (Sell Limit, Buy Limit, Sell Stop, Buy Stop), as well as Stop-orders (Stop Loss and Take  Profit)
+                        on trading instruments are executed at Client`s stated prices, provided the first tick meeting conditions
+                        to open an Order is less than 10 points from stated price. Such situation is possible due to sharp changes
+                        of prices on financial instruments during the first session or upon opening.</p>
+                    <p>Dealer reserves the right not to execute the order or revise the price for opening (closure) the order due to the
+                        sum of the first tick upon opening the trading session, also in case of a technical failure in the trading platform,
+                        which influences quotes flow of financial instruments, or any other technical failure.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-description-middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <img src="public/images/pages/to/terms/120-browser.png" alt="">
+                    <p>Client cannot change or cancel any active or pending order<br>
+                        if the price hasn’t achieved the level of order execution.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <img src="public/images/pages/to/pc.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <p>The following cases will be considered by Company as ground to suspend
+                    or revise Client`s completed transactions: failures of Internet providers, faults
+                    of information flows, hacker attacks and other illegal actions against Company`s
+                    equipment and servers, Force-Majeure, as well as suspension of trading on markets
+                    affecting financial instruments used by Company.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="section-two-tiles">
+    <div class="row">
+        <div class="col-xs-12 col-sm-6">
+            <div class="tile tile-1">
+                <p>Any transaction closed
+                    within 300 seconds from
+                    opening time shall be
+                    considered as“<strong>Scalping</strong>”.
+                    <br><br>
+                    Company shall preserve <strong>the right to
+                    cancel transactions </strong>partially or totally
+                    <strong>without prior notice</strong>.</p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="tile tile-2">
+                <p>Company has the right to revise or change trading operation
+                    in case if a program failure had been revealed during 5 trading
+                    sessions after the failure was revealed. If so, Client is provided by
+                    history data from not less than 2 independent sources.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="section-grey">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-4">
+                <img src="public/images/pages/to/graph.png" alt="" class="img-responsive">
+            </div>
+            <div class="col-xs-12 col-sm-8">
+                <p>Client takes full responsibility for trading transactions using additional functions of
+                    Client`s trading terminal, such as Trailing Stop. These functions and their execution
+                    and characteristics directly depend on Client`s trading terminal and cannot be
+                    controlled by the Company.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 
 <div class="container-fluid payment-wrapper">
     <div class="payment-inner">
@@ -255,7 +356,7 @@
 </div>
 <div class="footer-wrapper">
     <div class="container-fluid">
-        <div class="container risk-wrapper">
+        <div class="risk-wrapper">
             <div class="row">
                 <div class="col-md-12">
                     <p class="risk">Risk Warning: Our products are traded on margin and carry a high level of risk and it is possible to lose all your capital. These products may not be suitable for everyone and you should ensure that you understand the risks involved.</p>
@@ -264,9 +365,9 @@
         </div>
     </div>
     <div class="container-fluid">
-        <div class="container footer-menu-wrapper">
+        <div class="footer-menu-wrapper">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-2 col-xs-12">
                     <ul class="footer-menu">
                         <li><a href="#">About us</a></li>
                         <li><a href="#">Platforms</a></li>
@@ -274,7 +375,7 @@
                         <li><a href="#">Clients</a></li>
                     </ul>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-2 col-xs-12">
                     <ul class="footer-menu">
                         <li><a href="#">Open account</a></li>
                         <li><a href="#">News</a></li>
@@ -282,7 +383,7 @@
                         <li><a href="#">Contact us</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6 footer-buttons">
+                <div class="col-md-8 footer-buttons">
                     <button type="button" class="btn btn-md btn-login btn-login-white">Register</button>
                     <button type="button" class="btn btn-md btn-login btn-login-white">Log<small>in</small></button>
                 </div>
@@ -291,16 +392,19 @@
     </div>
     <div class="container-fluid">
         <div class="container subscriber">
-            <input type="email" placeholder="Please enter your email address here">
-            <button type="button" class="footer-btn">SUBSCRIBE</button>
+            <form action="" method="POST">
+                <input type="email" placeholder="Please enter your email address here">
+                <button type="submit" class="footer-btn">SUBSCRIBE</button>
+            </form>
+            <p class="subscribe-success hidden">You have subscribed successfully.</p>
         </div>
     </div>
     <div class="container-fluid">
         <div class="container social">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-youtube-play" aria-hidden="true"></i>
-            <i class="fa fa-google-plus" aria-hidden="true"></i>
+            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
         </div>
     </div>
     <div class="container-fluid">

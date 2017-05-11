@@ -1,0 +1,170 @@
+.footer-menu {
+    text-transform: uppercase;
+    margin: 0;
+    list-style-type: none;
+}
+
+.footer-menu-wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 150px;
+}
+
+.footer-menu li {
+    line-height: 36px;
+}
+
+.white-btn {
+    border-radius: 5px;
+    background: none;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 30px;
+    margin-left: 20px;
+}
+
+.white-btn span {
+    font-weight: normal;
+}
+
+.footer-wrapper {
+    background: url(../images/footer-bg.png);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer-wrapper a {
+    color: #fff;
+}
+
+.footer-wrapper a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-wrapper .container-fluid {
+    border-bottom: 1px solid #5c5c5c;
+    padding: 20px 0;
+}
+
+.risk {
+    text-align: center;
+    font-size: 14px;
+    margin: 0;
+}
+
+.subscriber *::-webkit-input-placeholder {
+    color: #fff;
+}
+.subscriber *:-moz-placeholder {
+    /* FF 4-18 */
+    color: #fff;
+}
+.subscriber *::-moz-placeholder {
+    /* FF 19+ */
+    color: #fff;
+}
+.subscriber *:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+
+.subscriber input[type=email] {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    background: none;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.subscriber {
+    text-align: center;
+}
+
+.fa {
+    padding: 0 10px;
+}
+
+.social {
+    text-align: center;
+}
+
+.payment-methods table {
+    margin: auto;
+}
+
+table td:first-child img {
+    max-width: 50px;
+}
+
+table td:nth-child(2) img {
+    max-width: 60px;
+}
+
+table td:nth-child(3) img {
+    max-width: 90px;
+}
+
+table td:nth-child(4) img {
+    max-width: 60px;
+}
+
+table td:nth-child(5) img {
+    max-width: 50px;
+}
+
+table td:nth-child(6) img {
+    max-width: 140px;
+}
+
+table td:last-child img {
+    max-width: 155px;
+}
+
+table td {
+    padding: 0 30px;
+}
+
+.payment {
+    text-align: center;
+    margin: 0;
+}
+
+.payment li {
+    display: inline;
+    padding: 0 25px;
+}
+
+.payment li img {
+    max-height: 50px;
+}
+
+.payment-wrapper {
+    background: #666;
+    margin: 20px 0;
+    padding: 40px 0;
+}
+
+.payment-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer-menu-wrapper {
+        padding-left: 0px;
+    }
+
+    .risk {
+        font-size: 11px;
+        padding: 0 15px;
+    }
+
+    .payment-wrapper {
+        padding: 15px 5px;
+    }
+}
