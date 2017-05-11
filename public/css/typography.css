@@ -6,10 +6,27 @@ p {
     line-height: 1.35;
     font-size: 16px;
     margin-bottom: 13px;
+    font-weight: 400;
 }
 
 ul.bullet-list {
     list-style: disc;
     padding-left: 20px;
     margin: 15px 0;
+}
+
+strong {
+    font-weight: 700;
+}
+
+@media screen and ( max-width: 1400px) {
+    p {
+        font-size: 14px;
+    }
+}
+
+@media screen and ( max-width: 1024px) {
+    p {
+        font-size: 12px;
+    }
 }
