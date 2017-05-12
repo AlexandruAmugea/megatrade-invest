@@ -26,7 +26,7 @@ app.get('/trading-options', function(req, res, next) {
 
 
 app.get('/clients', function(req, res, next) {
-    var html = fs.readFileSync('views/clients.html', 'utf8')
+    var html = fs.readFileSync('views/client2.html', 'utf8')
     res.send(html);
 });
 
