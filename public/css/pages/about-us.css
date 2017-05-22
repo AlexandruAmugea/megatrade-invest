@@ -1,0 +1,348 @@
+/* SECTIONS */
+
+/*.footer-wrapper, .payment-wrapper {
+	margin-left: -15px;
+	margin-right: -15px;
+}*/
+
+.clr {
+	clear: both;
+}
+
+
+/* ABOUT US START */
+
+/* Section Tags */
+.heading-tag {
+	text-transform: uppercase;
+	color: rgb(93, 45, 134);
+	margin-bottom: 10px;
+}
+
+.section-about-us-tags p {
+	line-height: 1.8;
+}
+
+.tag-img-wrap img {
+	max-width: 150px;
+	margin-bottom: 20px;
+}
+
+.section-about-us-tags {
+	padding: 55px 0;
+}
+
+.tag {
+	padding: 30px 0;
+}
+
+
+/* Section Advantages */
+.section-advantages {
+	background: url("../../images/about-us/about-us-advantages-bg.jpg") no-repeat center center;
+	background-size: cover;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding: 75px 0px 150px 0px;
+}
+
+.section-advantages h3 {
+	color: #fff;
+	margin-bottom: 50px;
+}
+
+.advantages {	
+	text-align: center;
+	border-radius: 10px;
+	min-height: 200px;
+	margin-bottom: 30px;
+	display: table;
+	width: 100%;
+	border: 2px solid transparent;
+}
+
+/*.advantages:hover {
+	border: 2px solid #fff;
+	box-sizing: content-box;
+}*/
+
+.advantages p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	display: table-cell;
+	vertical-align: middle;
+	height: 200px;
+}
+
+.advantages-wrapper {
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+.advantage-1 {
+	background: url("../../images/about-us/advantages-1.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-2 {
+	background: url("../../images/about-us/advantages-2.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-3 {
+	background: url("../../images/about-us/advantages-3.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-4 {
+	background: url("../../images/about-us/advantages-4.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-5 {
+	background: url("../../images/about-us/advantages-5.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-6 {
+	background: url("../../images/about-us/advantages-6.png") no-repeat center center;
+	background-size: cover;
+}
+
+.advantage-7 {
+	background: url("../../images/about-us/advantages-7.png") no-repeat center center;
+	background-size: cover;
+}
+
+
+/* Media queries */
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 990px) {
+	.tag-img-wrap, .tag-text-wrap {
+		text-align: center;
+	}
+
+	.heading-tag {
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (min-width: 990px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 991px) {
+
+}
+
+/* ABOUT US END */
+
+
+/* BONUSES START */
+.section-bonuses-tags .heading-tag {
+	color: #000;
+	padding: 10px 0px 90px 0px;
+	border-top: 5px solid #95d600;
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.section-bonuses-tags {
+	padding: 55px 0;
+}
+
+.bonus-tag-img-wrap img {
+	max-width: 100px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+	.bonus-tag-img-wrap {
+		text-align: center;
+	}
+}
+
+/* BONUSES END */
+
+
+/* TERMINOLOGY START */
+.section-terminology-tags {
+	background: url("../../images/terminology/terminology-tag-section-bg.png") no-repeat;
+	background-position: 120% 20%;
+}
+
+.section-terminology-tags .heading-tag {
+	color: #000;
+	padding: 10px 0px 90px 0px;
+	border-top: 5px solid #95d600;
+	max-width: 150px;
+	margin: 0 auto;
+}
+
+.section-terminology-tags {
+	padding: 90px 0;
+}
+
+.purple-bar-1 {
+	background: #5d2d86;
+	height: 7px;
+	width: 200px;
+	margin-bottom: 5px;
+}
+
+.green-bar-1 {
+	background: #94d60a;
+	height: 7px;
+	width: 150px;
+}
+
+.purple-bar-2 {
+	background: #5d2d86;
+	height: 7px;
+	width: 90px;
+	margin-bottom: 5px;
+}
+
+.green-bar-2 {
+	background: #94d60a;
+	height: 7px;
+	width: 60px;
+}
+
+.left-bars {
+	margin-bottom: 50px;
+}
+
+.left-bars-2 {
+	float: none;
+	max-width: 90px;
+	display: block;
+}
+
+.purple-bar-3 {
+	background: #5d2d86;
+	height: 7px;
+	width: 90px;
+	margin-bottom: 5px;
+	float: right;
+}
+
+.green-bar-3 {
+	background: #94d60a;
+	height: 7px;
+	width: 60px;
+	float: right;
+}
+
+.purple-bar-4 {
+	background: #5d2d86;
+	height: 7px;
+	width: 90px;
+	float: right;
+}
+
+.green-bar-4 {
+	background: #94d60a;
+	height: 7px;
+	width: 60px;
+	float: right;
+	margin-bottom: 5px;
+}
+
+.term-tag-img-wrap img {
+	max-width: 100px;
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 990px) {
+	.term-tag-img-wrap {
+		text-align: center;
+	}
+	
+}
+/* TERMINOLOGY END */
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+	.tag-text-wrap {
+		padding-left: 40px;
+	}
+}
+
+@media screen and (min-width: 990px) {
+	.table-fix {
+	padding-top: 40px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+.tag-text-wrap-1, .term-tag-img-wrap-1 {
+	display: table;
+	min-height: 100px;
+}
+
+.tag-text-wrap-1 p, .term-tag-img-wrap-1 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tag-text-wrap-2, .term-tag-img-wrap-2 {
+	display: table;
+	min-height: 275px;
+}
+
+.tag-text-wrap-2 p, .term-tag-img-wrap-2 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tag-text-wrap-4, .term-tag-img-wrap-4 {
+	display: table;
+	min-height: 100px;
+}
+
+.tag-text-wrap-4 p, .term-tag-img-wrap-4 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tag-text-wrap-5, .term-tag-img-wrap-5 {
+	display: table;
+	min-height: 150px;
+}
+
+.tag-text-wrap-5 p, .term-tag-img-wrap-5 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tag-text-wrap-6, .term-tag-img-wrap-6 {
+	display: table;
+	min-height: 100px;
+}
+
+.tag-text-wrap-6 p, .term-tag-img-wrap-6 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.tag-text-wrap-7, .term-tag-img-wrap-7 {
+	display: table;
+	min-height: 100px;
+}
+
+.tag-text-wrap-7 p, .term-tag-img-wrap-7 .img-holder  {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+}
+
+
+
