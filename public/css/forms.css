@@ -1,0 +1,99 @@
+/* Forms overwrite */
+
+.form-register {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 75px 0;
+}
+
+.form-register h2 {
+    color: #5d2d86;
+    text-transform: uppercase;
+    font-size: 32px;
+    text-align: center;
+}
+
+.form-control {
+    background-color: #e5e5e5;
+    color: #1a1a1a;
+    border: transparent;
+}
+
+.form-control:focus {
+    border: 1px solid #1a1a1a;
+    box-shadow: none;
+}
+
+.checkbox label {
+    font-size: 9px;
+}
+
+.nav-tabs-form-wrapper {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.nav-tabs-form li {
+    float: left;
+    width: 40%;
+}
+
+.nav-tabs-form li:nth-child(2) {
+    width: 20%;
+}
+
+.nav-tabs-form #form-demo {
+    width: 100%;
+    background-color: #95d600;
+    color: #1a1a1a;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-tabs-form #form-real {
+    width: 100%;
+    background-color: #5d2d86;
+    color: #ffffff;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.nav-tabs-form li > a:hover,
+.nav-tabs-form li > a:visited,
+.nav-tabs-form li > a:focus {
+    text-decoration: none;
+}
+
+.nav-tabs-form img {
+    height: 40px;
+}
+
+.term-docs-section ul {
+    text-align: center;
+    margin: 30px 0 0;
+}
+
+.term-docs-section ul li {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.term-docs-section ul li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: 12px;
+}
+
+.term-docs-section ul li a:hover,
+.term-docs-section ul li a:visited,
+.term-docs-section ul li a:focus {
+    text-decoration: underline;
+}
