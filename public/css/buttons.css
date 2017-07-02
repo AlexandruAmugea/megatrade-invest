@@ -132,6 +132,27 @@
     margin: 0 auto;
 }
 
+.btn-news {
+    border: 2px solid #95d600;
+    border-radius: 6px;
+    padding: 12px 35px 10px 35px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #95d600;
+    font-size: 12px;
+    box-shadow: none;
+    background-color: transparent;
+    transition: .25s all ease;
+}
+
+.btn-news:hover,
+.btn-news:focus {
+    color: #fff;
+    border: 2px solid #fff;
+    box-shadow: none;
+    transition: .25s all ease;
+}
+
 @media screen and (max-width: 1400px) {
     .btn-login {
         padding: 9px 25px 7px 25px;
